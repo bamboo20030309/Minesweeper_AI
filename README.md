@@ -16,11 +16,20 @@ Minesweeper_AI_CNN.ipynb 是主要模型訓練的code，裡面包含遊戲本身
 模型結構參考 https://github.com/sdlee94/Minesweeper-AI-Reinforcement-Learning/blob/master/README.md
 
 一些函數參數的調整：
+
 Print_board = -1 只印出失敗的最後一步
+
 Print_board =  0 完全不輸出
+
 Print_board =  1 印出每一步
+
 Print_board >  1 印出更多過程 (debug)
 
+
+
 first_step = 0 遊戲的第一步可能包含地雷
+
 first_step = 1 遊戲的第一步不可能包含地雷
+
 first_step = 2 遊戲的第一步一定是0 (盡可能的好開局)
+
