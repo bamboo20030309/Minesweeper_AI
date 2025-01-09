@@ -18,6 +18,7 @@ Minesweeper_AI_CNN.ipynb 是主要模型訓練的code，裡面包含遊戲本身
 一些函數參數的調整：
 
 Print_board = -1 只印出失敗的最後一步
+
 Print_board =  0 完全不輸出
 
 Print_board =  1 印出每一步
